@@ -16,4 +16,4 @@ def main(a):
     fourDigit = a%10 #2
     fiveDigit = a//10 #1
 
-    return fiveDigit < fourDigit < threeDigit < twoDigit < firstDigit
+    return firstDigit < twoDigit < threeDigit < fourDigit < fiveDigit
