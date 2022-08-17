@@ -6,5 +6,5 @@ def main(a,b):
         b(int): parameter b
     Returns:
         bool: answer
-    """
-    return
+    """ 
+    return a%2==1 or b%2==1
