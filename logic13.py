@@ -6,4 +6,7 @@ def main(a):
     Returns:
         bool: answer
     """
-    return
+    y=a%10
+    z=a//10
+    sum = y+z
+    return sum%2 == 0
